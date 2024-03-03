@@ -1,0 +1,220 @@
+{
+  "success": true,
+  "code": 200,
+  "data": [
+    {
+      "name": "home",
+      "path": "/home/index",
+      "component": "/home/index",
+      "meta": {
+        "title": "首页",
+        "isLink": null,
+        "icon": "HomeFilled"
+      },
+      "children": []
+    },
+    {
+      "name": "stats",
+      "path": "/stats/index",
+      "component": "/stats/index",
+      "meta": {
+        "title": "数据统计",
+        "isLink": null,
+        "icon": "DataBoard"
+      },
+      "children": []
+    },
+    {
+      "name": "user",
+      "path": "/user",
+      "component": null,
+      "meta": {
+        "title": "用户管理",
+        "isLink": null,
+        "icon": "User"
+      },
+      "children": [
+        {
+          "name": "userList",
+          "path": "/user/userList",
+          "component": "/user/userList/index",
+          "meta": {
+            "title": "用户列表",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        },
+        {
+          "name": "userFeedback",
+          "path": "/user/userFeedback",
+          "component": "/user/userFeedback/index",
+          "meta": {
+            "title": "用户反馈",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "article",
+      "path": "/article",
+      "component": "",
+      "meta": {
+        "title": "文章管理",
+        "isLink": null,
+        "icon": "Document"
+      },
+      "children": [
+        {
+          "name": "articleList",
+          "path": "/article/articleList",
+          "component": "/article/articleList/index",
+          "meta": {
+            "title": "文章列表",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        },
+        {
+          "name": "articleComment",
+          "path": "/article/articleComment",
+          "component": "/article/articleComment/index",
+          "meta": {
+            "title": "文章评论",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        },
+        {
+          "name": "articleLabel",
+          "path": "/article/articleLabel",
+          "component": "/article/articleLabel/index",
+          "meta": {
+            "title": "文章标签",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "moment",
+      "path": "/moment",
+      "component": null,
+      "meta": {
+        "title": "动态管理",
+        "isLink": null,
+        "icon": "MagicStick"
+      },
+      "children": [
+        {
+          "name": "momentList",
+          "path": "/moment/momentList",
+          "component": "/moment/momentList/index",
+          "meta": {
+            "title": "动态列表",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        },
+        {
+          "name": "momentComment",
+          "path": "/moment/momentComment",
+          "component": "/moment/momentComment/index",
+          "meta": {
+            "title": "动态评论",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        },
+        {
+          "name": "momentLabel",
+          "path": "/moment/momentLabel",
+          "component": "/moment/momentLabel/index",
+          "meta": {
+            "title": "动态标签",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "questionAnswer",
+      "path": "/questionAnswer",
+      "component": null,
+      "meta": {
+        "title": "问答管理",
+        "isLink": null,
+        "icon": "QuestionFilled"
+      },
+      "children": [
+        {
+          "name": "questionAnswerList",
+          "path": "/questionAnswer/questionAnswerList",
+          "component": "/questionAnswer/questionAnswerList/index",
+          "meta": {
+            "title": "问答列表",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "system",
+      "path": "/system",
+      "component": null,
+      "meta": {
+        "title": "系统管理",
+        "isLink": null,
+        "icon": "Tools"
+      },
+      "children": [
+        {
+          "name": "role",
+          "path": "/system/role",
+          "component": "/system/role/index",
+          "meta": {
+            "title": "角色管理",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        },
+        {
+          "name": "permission",
+          "path": "/system/permission",
+          "component": "/system/permission/index",
+          "meta": {
+            "title": "权限管理",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        },
+        {
+          "name": "menu",
+          "path": "/system/menu",
+          "component": "/system/menu/index",
+          "meta": {
+            "title": "菜单管理",
+            "isLink": null,
+            "icon": "Menu"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}
